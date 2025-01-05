@@ -64,8 +64,22 @@ class Sidebar extends HTMLElement {
             background-repeat: repeat-x;
             transform-origin: left;
             transition: transform 0.3s ease; /* Smooth animation */
-          }  
+          } 
         }
+        .facebook {
+            &:after {
+              display: none;
+            }
+            transition: .2;
+            img {
+              filter: invert(1);
+              width: 24px;
+              height: 24px;
+            }
+            &:hover {
+              scale: 1.1;
+            }
+          }         
       </style>
       <section>
         <img class="the-boys" src="/images/theboys.jpg" alt="Gary and his son" width="319" height="434"/>
@@ -74,6 +88,7 @@ class Sidebar extends HTMLElement {
           <li><a href="tel:519-971-9450">(519) 971-9450</a></li>
           <li><a href="https://www.google.com/maps/search/?api=1&query=6970+Cantelon+Drive,+Windsor,+ON+N8T+3J9">6970 Cantelon Drive <br/> Windsor, ON N8T 3J9 🇨🇦</a></li>
           <li><email-link data-email="Z2FyeXNmZW5jaW5nQGhvdG1haWwuY29t"></email-link></li>
+          <li><a class="facebook" href="https://www.facebook.com/people/Garys-Fencing/100054511387443/"><img src="/images/facebook.svg" alt="Visit us on Facebook" /></a></li>
         </ul>
       </section>
     `;
