@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "packageManager": "pnpm@8.15.6",
   "scripts": {
     "get-photos": "node src/getPhotos.js && node src/createThumbnails.js",
     "dev": "npm run get-photos && vite",
