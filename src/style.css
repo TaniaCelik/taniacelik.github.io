@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  touch-action: manipulation; /* Limits default gestures */
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.mb-half {
+  margin-bottom: 0.5rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.padding-x-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.padding-x-2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.grid {
+  display: grid;
+}
+.gap-1 {
+  gap: var(--spacing-1);
+}
+
+.scrollable-y {
+  overflow-y: auto;
+}
+
+:root {
+  --text-color: #;
+  --background-color: #ffffff;
+  font-family: "Andada Pro", serif;
+  line-height: 1.5;
+}
+
+:root {
+  --spacing-half: 0.5rem;
+  --spacing-1: 1rem;
+  --spacing-2: 2rem;
+  --spacing-3: 3rem;
+  --font-small: 1rem;
+  --font-large: 3rem;
+  --monospace: monospace;
+  --serif: "Andada Pro", serif;
+  --background--main: #fff;
+  --background--sidebar: #111111;
+  --background--active-nav: #000000;
+  --text-color: #1f1f1f;
+  --text--on-sidebar: #ffffff;
+  --text--active-nav: #ffffff;
+  --border-radius: 4px;
+  --small-viewport: 768px;
+}
+
+body {
+  background: white;
+}
