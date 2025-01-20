@@ -10,7 +10,6 @@ class Introduction extends HTMLElement {
         p {
           line-height: 1.5; 
           font-size: clamp(1.4rem, 2.5vw, 3rem);
-          margin-top: 48px;
           margin-bottom: 48px;
           margin-left: auto;
           margin-right: auto;
@@ -23,7 +22,6 @@ class Introduction extends HTMLElement {
           }
           p {
             text-align: left;
-            margin-top: 33vh;
             margin-left: 0;
             max-width: 100%;
           }
