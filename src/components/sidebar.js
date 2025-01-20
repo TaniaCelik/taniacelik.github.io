@@ -20,6 +20,7 @@ class Sidebar extends HTMLElement {
             width: 40vw;
             height: 100vh;
             flex-direction: column;
+            align-items: center;
             overflow: auto;
             align-items: center;
           }  

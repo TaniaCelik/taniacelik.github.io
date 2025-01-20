@@ -13,6 +13,7 @@ class Introduction extends HTMLElement {
           margin-bottom: 48px;
           margin-left: auto;
           margin-right: auto;
+          margin-top: 3rem;
           text-align: center;
           max-width: 500px;
         }
